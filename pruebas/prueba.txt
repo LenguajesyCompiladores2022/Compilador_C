@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int main(int argc, char *argv[])
+{
+
+    int i = 0;
+
+    printf("Introduce un puntero\n");
+    scanf("%d", &i);
+
+   
+
+    while(i<=10 && 1==1)
+    {
+        printf("funciono: %d\n", i);
+        i++;
+
+        if (i == 2) 
+        {
+            printf("llegue al 2\n");
+        } else 
+        {
+            printf("no llegue\n");
+        }
+    }
+
+    char greeting[] = "@Hello  ";
+
+    printf("%s\n",greeting);
+
+    float valor = 0.99;
+    float valor2 = 99.;
+
+    printf("%f\n",valor);
+    printf("%f\n",valor2);
+
+    printf("EL OR: %d\n", 1==1 || 1==2);
+
+    /*
+        Comentario
+    */
+    // Comentario 2
+
+
+ 
+}
